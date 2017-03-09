@@ -1,0 +1,68 @@
+
+body{	
+	
+
+	
+	background-color: #000;
+	background-size: 100%;
+	height: auto;
+	overflow: auto;
+
+}
+
+.letters{
+	padding-top: 10%;
+	font-size: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+.page-header{
+
+    background-image: url('./../assets/images/Africa2.png');
+    background-size: 800px 330px;
+    height: 300px;
+    width: 120%;
+    margin-top: -10px;
+    margin-left: -10px;
+
+
+}
+
+
+
+img{
+
+	top: 15px;
+
+}
+
+#game{
+
+
+font-size: 80px;
+text-align: center;
+color: #fff;
+
+}
+
+p{
+
+	color: #fff;
+	font-size: 20px;
+}
+
+
+#guessElement{
+    margin-top: 2%;
+	color:#fff;
+	font-size: 20px;
+	text-align: center; 
+}
+
+#guessesMade{
+    margin-top: 5%;
+	color:#fff;
+	font-size: 20px;
+	text-align: center; 
+}
