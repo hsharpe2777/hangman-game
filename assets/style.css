@@ -17,12 +17,12 @@ body{
 
 .page-header{
 
-    background-image: url('Images/Africa2.png');
-    background-size: 800px 330px;
-    height: 300px;
-    width: 120%;
-    margin-top: -10px;
-    margin-left: -10px;
+	background-image: url('Images/Africa2.png');
+	background-size: 1300px 430px;
+	height: 300px;
+	width: 101.35%;
+	margin-top: -10px;
+	margin-left: -10px;
 
 
 }
@@ -38,9 +38,9 @@ img{
 #game{
 
 
-font-size: 80px;
-text-align: center;
-color: #fff;
+	font-size: 80px;
+	text-align: center;
+	color: #fff;
 
 }
 
@@ -52,14 +52,14 @@ p{
 
 
 #guessElement{
-    margin-top: 2%;
+	margin-top: 2%;
 	color:#fff;
 	font-size: 20px;
 	text-align: center; 
 }
 
 #guessesMade{
-    margin-top: 5%;
+	margin-top: 5%;
 	color:#fff;
 	font-size: 20px;
 	text-align: center; 
