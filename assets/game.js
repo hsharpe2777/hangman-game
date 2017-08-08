@@ -1,5 +1,5 @@
     //Maximum number of guesses
-    var guesses = 15;
+    var guesses = 12;
 
     //number of wins
     var wins = 0;
