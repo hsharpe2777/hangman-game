@@ -28,7 +28,6 @@ body{
 }
 
 
-
 img{
 
 	top: 15px;
@@ -59,6 +58,13 @@ p{
 }
 
 #guessesMade{
+	margin-top: 5%;
+	color:#fff;
+	font-size: 20px;
+	text-align: center; 
+}
+
+#score{
 	margin-top: 5%;
 	color:#fff;
 	font-size: 20px;

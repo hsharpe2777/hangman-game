@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Hangman Game</title>
-  </head>
+</head>
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<div class="page-header">
+    <!--Header of the page-->
+</div>
 
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+<body>
+    <!--Labels in Game-->
+    <center>
+        <p> Guess the African Country
+            <br>Type a letter!
+        </p>
+        <br>
+    </center>
+    <!--Where the hangman letters will be displayed-->
+    <div id="game">
+        <br>
+    </div>
+    <!--Where the guesses will be displayed-->
+    <div id="guessesMade">
+    </div>
+    <!--Where the number of guesses will be displayed-->
+    <div id="guessElement">
+        Guesses Left: 15
+    </div>
+    <!--Where the score will be displayed-->
+    <div id="score">
+        Wins: 0
+        Losses: 0
+    </div>
+    <script src="assets/game.js"></script>
+</body>
 
- 
-        
-        <div class="page-header">
-        <!--Header of the page-->
-        </div>
-  <body>
-
-        <!--Labels in Game-->
-        <center>
-            <p> Guess the African Country 
-              <br>Type a letter! 
-            </p>
-            <br>
-        </center>     
-                  
-        <!--Where the hangman letters will be displayed-->
-             <div id="game"> 
-                 <br>
-             </div>
-
-             <!--Where the guesses will be displayed-->
-             <div id="guessesMade"> 
-
-             </div>
-
-             <!--Where the number of guesses will be disp-->
-             <div id="guessElement"> 
-             Guesses Left: 20
-             </div>
-
-             
-
-
-
-     <script src="assets/game.js"></script>
-
-
-    
-    </body>
 </html>
